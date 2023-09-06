@@ -46,6 +46,12 @@ const default_config = {
               icon: "brand-youtube-filled",
               icon_color: "#ea6962",
             },
+            {
+              name: "zalo",
+              url: "https://chat.zalo.me/",
+              icon: "brand-zulip",
+              icon_color: "#0091FF",
+            },
             ,
           ],
         },
