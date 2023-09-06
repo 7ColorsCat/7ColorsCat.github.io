@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Thanh Pho Ho Chi Minh, VN',
+    location: "Thanh Pho Ho Chi Minh, VN",
     scale: "C",
   },
   clock: {
@@ -20,8 +20,8 @@ const default_config = {
     },
   },
   keybindings: {
-    "s": "search-bar",
-    "q": "config-tab",
+    s: "search-bar",
+    q: "config-tab",
   },
   disabled: [],
   fastlink: "https://chat.openai.com/",
@@ -30,46 +30,48 @@ const default_config = {
     {
       name: "chi ll",
       background_url: "src/img/banners/cbg-2.gif",
-      categories: [{
-        name: "Social Media",
-        links: [
-          {
-            name: "reddit",
-            url: "https://www.reddit.com/",
-            icon: "brand-reddit",
-            icon_color: "#e78a4e",
-          },
-          {
-            name: "youtube",
-            url: "https://www.youtube.com/",
-            icon: "brand-youtube-filled",
-            icon_color: "#ea6962",
-          },
-          ,
-        ],
-      }, {
-        name: "Games",
-        links: [
-          {
-            name: "chess",
-            url: "https://www.chess.com/home",
-            icon: "chess-queen-filled",
-            icon_color: "#a9b665",
-          },
-          {
-            name: "monkeytype",
-            url: "https://monkeytype.com/",
-            icon: "keyboard",
-            icon_color: "#e78a4e",
-          },
-          {
-            name: "tetris",
-            url: "https://tetris.com/",
-            icon: "brand-apple-arcade",
-            icon_color: "#ea6962",
-          },
-        ],
-      }, 
+      categories: [
+        {
+          name: "Social Media",
+          links: [
+            {
+              name: "reddit",
+              url: "https://www.reddit.com/",
+              icon: "brand-reddit",
+              icon_color: "#e78a4e",
+            },
+            {
+              name: "youtube",
+              url: "https://www.youtube.com/",
+              icon: "brand-youtube-filled",
+              icon_color: "#ea6962",
+            },
+            ,
+          ],
+        },
+        {
+          name: "Games",
+          links: [
+            {
+              name: "chess",
+              url: "https://www.chess.com/home",
+              icon: "chess-queen-filled",
+              icon_color: "#a9b665",
+            },
+            {
+              name: "monkeytype",
+              url: "https://monkeytype.com/",
+              icon: "keyboard",
+              icon_color: "#e78a4e",
+            },
+            {
+              name: "tetris",
+              url: "https://tetris.com/",
+              icon: "brand-apple-arcade",
+              icon_color: "#ea6962",
+            },
+          ],
+        },
       ],
     },
     {
@@ -229,6 +231,12 @@ const default_config = {
               url: "https://www.hackerrank.com/dashboard",
               icon: "code-asterix",
               icon_color: "#a9b665",
+            },
+            {
+              name: "100dayscss",
+              url: "https://100dayscss.com/",
+              icon: "shape",
+              icon_color: "#465CA8",
             },
           ],
         },
